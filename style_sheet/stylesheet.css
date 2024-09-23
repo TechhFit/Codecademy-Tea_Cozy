@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 250px;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  background-color: black;
+  position: relative;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 69px 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%;
+  z-index: 19;
+  background-color: black;
+}
+
+.menu-links {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-links li {
+  margin-left: 50px;
+}
+
+.menu-links li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-links li a:hover {
+  text-decoration: underline;
+}
+
+.company-logo:hover {
+  cursor: pointer;
+}
+
+.company-logo {
+  height: 50px;
+}
+
+.mission-figure {
+  margin: 0 auto;
+}
+
+.mission-img {
+  width: 1000px;
+  height: 700px;
+  margin: 189px auto 0 auto;
+}
+
+.mission-caption {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  top: 450px;
+  padding: 20px 0;
+}
+
+.mission-caption h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.mission-caption p {
+  color: white;
+  text-align: center;
+}
+
+/* Main */
+
+.main-content {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-content h2 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.tea-of-the-month {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea-of-the-month img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 45px;
+}
+
+.row1 figcaption {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.row2 figcaption {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.location {
+  height: 750px;
+  width: 70%;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+}
+
+.address h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.addresses {
+  display: flex;
+}
+
+.addresses article {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  box-sizing: border-box;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addresses article h3 {
+  color: white;
+  text-align: center;
+}
+
+.addresses article p {
+  color: white;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+.contact-details {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  flex-direction: column;
+  height: 200px;
+}
+
+.contact-details h4 {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.contact-details p {
+  color: white;
+}
+
+.copyright {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.copyright p {
+  color: white;
+  margin-left: 15px;
+  padding: 10px 0;
+}
